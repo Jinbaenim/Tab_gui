@@ -1,7 +1,14 @@
 import tkinter as tk                    
 from tkinter import *
 from tkinter import ttk
-  
+import number.number as nm
+
+nm.price()
+print (nm.abc)
+
+class_test = nm.Jinbae()
+class_test.detail(50000000)
+
 root = tk.Tk()
 root.title("Tab")
 root.geometry("200x150")
@@ -20,21 +27,21 @@ tabControl.pack(expand = 1, fill ="both")
   
 # l1=tk.Label(tab1,text='I am JinBae',bg='yellow',width=10)
 # l1.grid(row=1,column=1) # using grid 
-photo_1 =PhotoImage(file="jinbae.png")
+photo_1 =PhotoImage(file="pictures/jinbae.png")
 b1=tk.Button(tab1,text='I MiBae', image=photo_1)
 b1.place(relx=0.4,rely=0) 
 
 # l2=tk.Label(tab2,text='I am tab-1',bg='yellow',width=10)
 # l2.grid(row=1,column=1) # using grid 
-photo_2 =PhotoImage(file="Mibae.png")
+photo_2 =PhotoImage(file="pictures/Mibae.png")
 b2=tk.Button(tab2,text='I am MiBae', image=photo_2)
 b2.place(relx=0.4,rely=0) 
 
-photo_3 =PhotoImage(file="chunbae_1.png")
+photo_3 =PhotoImage(file="pictures/chunbae_1.png")
 b3=tk.Button(tab3,text='I am ChunBae', image=photo_3)
 b3.place(relx=0.4,rely=0) 
 
-photo_4 =PhotoImage(file="Mubae.png")
+photo_4 =PhotoImage(file="pictures/Mubae.png")
 b4=tk.Button(tab4,text='I am MuBae', image=photo_4)
 b4.place(relx=0.4,rely=0) 
   
